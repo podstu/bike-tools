@@ -1,34 +1,38 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light-webfont.woff') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  .photo-grid-container {
+.photo-grid-container {
     display: flex;
     justify-content: center;
-  }
+}
   
-  .photo-grid {
+.photo-grid {
     width: 900px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-  }
-  
-  .photo-grid-item {
+}
+
+.photo-grid-item {
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
-  }
+}
 
-  .first-item {
+.first-item {
     order: 1;
-  }
-  
-  .last-item {
+}
+
+.last-item {
     order: -1;
-  }
-  
+}
